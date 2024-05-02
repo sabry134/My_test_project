@@ -1,0 +1,15 @@
+name: Print Data
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  print-login:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Data Message
+      run: echo "Data"
