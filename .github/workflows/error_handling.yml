@@ -1,0 +1,15 @@
+name: Print Error Handling
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  print-login:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Error Handling Message
+      run: echo "Error Handling"
