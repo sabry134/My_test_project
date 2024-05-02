@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  print-login:
+  print-basic:
     runs-on: ubuntu-latest
 
     steps:
